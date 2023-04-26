@@ -1,0 +1,30 @@
+/*
+Color primario: #e3f2fd
+Color secundario: #707070
+Color especial: #0095ff
+*/
+
+body{
+font-family: 'Ubuntu', sans-serif;
+font-weight: 300;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    object-fit:cover;
+}
+
+.colorsecundario{
+    color: #707070;
+}
+
+.especial{
+    color: #0095ff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fs13{
+    font-size: 13px;
+}

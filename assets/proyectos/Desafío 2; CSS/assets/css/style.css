@@ -1,0 +1,54 @@
+body {
+  background-color: #161620;
+  color: blanchedalmond;
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+}
+.header {
+  height: 3em;
+  padding: 5em;
+  font-size: 1em;
+  background-image: url("../imgs/banner3.jpg");
+  background-size: cover;
+  background-position: top;
+  opacity: 100%;
+  border: solid 1px #ddd;
+}
+.header h1 {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 4em;
+  text-align: left;
+  opacity: 70%;
+  color: #ddc5b1;
+}
+.products {
+  width: 80%;
+  margin: auto;
+}
+.products td {
+  width: 30%;
+  padding: 2em;
+}
+.products img {
+  width: 80%;
+  border: solid 1px #ddd;
+}
+
+.título {
+  font-size: 2em;
+  text-align: left;
+}
+.bajada {
+  font-size: 1em;
+  text-align: left;
+}
+.footer {
+  height: 2em;
+  line-height: 2em;
+  background-color: #f8b156;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 100%;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 4; Bootstrap Cuppon</title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+    <!-- Font Awesoma -->
+    <script src="https://kit.fontawesome.com/7f2aa989b9.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">RECETA 🍽 S</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recetas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Cursos próximamente</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Productos -->
+    <main>
+        <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+            <div class="col">
+              <div class="card">
+                <img src="assets/imgs/brownies.jpg" class="card-img-top" alt="brownies">
+                <div class="card-body">
+                  <h5 class="card-title">Brownies</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, est.</p>
+                  <p class="colorsecundario fs13"><i class="fa-regular fa-clock"></i> Preparación: 60 minutos</p>
+                  <hr>
+                  <div class="d-flex justify-content-end align-items-end">
+                  <p class="colorsecundario text-decoration-line-through d-inline mx-1 my-0">$15.000</p>
+                  <p class="especial d-inline mx-2 my-0">$14.500</p>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="assets/imgs/budin.jpg" class="card-img-top" alt="grupo de budines de chocolate">
+                <div class="card-body">
+                  <h5 class="card-title">Budín de chocolate</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, est.</p>
+                  <p class="colorsecundario fs13"><i class="fa-regular fa-clock"></i> Preparación: 12 minutos</p>
+                  <hr>
+                  <div class="d-flex justify-content-end align-items-end">
+                  <p class="colorsecundario text-decoration-line-through d-inline mx-1 my-0">$9.000</p>
+                  <p class="especial d-inline mx-2 my-0">$8.500</p>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="assets/imgs/crackers.jpg" class="card-img-top" alt="galletas cracker">
+                <div class="card-body">
+                    <h5 class="card-title">Crackers</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, est.</p>
+                  <p class="colorsecundario fs13"><i class="fa-regular fa-clock"></i> Preparación: 80 minutos</p>
+                  <hr>
+                  <div class="d-flex justify-content-end align-items-end">
+                  <p class="colorsecundario text-decoration-line-through d-inlin mx-1 my-0">$12.000</p>
+                  <p class="especial d-inline mx-2 my-0">$11.000</p>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img src="assets/imgs/flan.jpg" class="card-img-top" alt="flan redondo">
+                  <div class="card-body">
+                    <h5 class="card-title">Flan</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, est.</p>
+                    <p class="colorsecundario fs13"><i class="fa-regular fa-clock"></i> Preparación: 120 minutos</p>
+                    <hr>
+                    <div class="d-flex justify-content-end align-items-end">
+                    <p class="colorsecundario text-decoration-line-through d-inline mx-1 my-0">$15.000</p>
+                    <p class="especial d-inline mx-2 my-0">$14.500</p>
+                </div>
+                  </div>
+                </div>
+              </div> 
+              <div class="col">
+                <div class="card">
+                  <img src="assets/imgs/hummus.jpg" class="card-img-top" alt="hummus de betarraga">
+                  <div class="card-body">
+                    <h5 class="card-title">Hummus</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, est.</p>
+                    <p class="colorsecundario fs13" ><i class="fa-regular fa-clock"></i> Preparación: 15 minutos</p>
+                    <hr>
+                    <div class="d-flex justify-content-end align-items-end">
+                    <p class="colorsecundario text-decoration-line-through d-inline mx-1 my-0">$15.000</p>
+                    <p class="especial d-inline mx-2 my-0">$14.500</p>
+                </div>
+                  </div>
+                </div>
+              </div>
+            <div class="col">
+              <div class="card">
+                <img src="assets/imgs/nutella.jpg" class="card-img-top" alt="galleta con crema de avellanas">
+                <div class="card-body">
+                  <h5 class="card-title">Crema de avellanas</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, est.</p>
+                  <p class="colorsecundario fs13"><i class="fa-regular fa-clock"></i> Preparación: 10 minutos</p>
+                  <hr>
+                  <div class="d-flex justify-content-end align-items-end">
+                  <p class="colorsecundario text-decoration-line-through d-inline mx-1 my-0">$15.000</p>
+                  <p class="especial d-inline mx-2 my-0">$14.500</p>
+                </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+    </div>
+    <!-- Formulario -->
+<section class="mt-5 p-4 text-center" style="background-color: #e3f2fd">
+    <form>
+        <h3 class="text-center">Suscríbete al newsletter</h3>
+        <div class="mb-3">
+            <input type="text" class="form-control" id="exampleInputText1" placeholder="Nombre">
+          </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico">
+        </div class="d-flex justify-content-center">
+        <button type="submit" class="btn btn-primary " style="background-color: #0095ff" >Enviar</button>
+      </form>
+</section>
+<!-- Footer -->
+    <footer class="text-center"> 
+        <p class="fs-5 mt-4 mb-2">RECETA 🍽 S</p>
+        <p class="colorsecundario ">© 2023 RECETA S. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
